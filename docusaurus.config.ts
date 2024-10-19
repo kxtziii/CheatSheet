@@ -7,16 +7,12 @@ const config: Config = {
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://kxtziii.github.io/',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: 'CheatSheet/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'kxtziii', // Usually your GitHub org/user name.
-  projectName: 'CheatSheet', // Usually your repo name.
+  url: 'https://kxtziii.github.io', // Your website URL
+  baseUrl: '/',
+  projectName: 'kxtziii.github.io',
+  deploymentBranch: "CheatSheet",
+  organizationName: 'kxtziii',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
